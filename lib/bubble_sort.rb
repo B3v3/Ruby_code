@@ -1,4 +1,5 @@
-def bubble_sort(array)
+class BubbleSort
+def self.bubble_sort(array)
     sorted = false
     until sorted == true
       sorted = true
@@ -11,9 +12,9 @@ def bubble_sort(array)
     end
     return array
 end
-puts bubble_sort([4,3,78,2,0,2]).inspect
 
-def bubble_sort_by(array)
+
+def self.bubble_sort_by(array)
   sorted = false
   until sorted == true
     sorted = true
@@ -24,10 +25,6 @@ def bubble_sort_by(array)
       end
     end
   end
-  puts array.inspect
+  return array
     end
-
-    
-  bubble_sort_by(["hi","hello","hey"]) do |left,right|
-    left.length - right.length
-  end
+end

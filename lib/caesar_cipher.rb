@@ -1,4 +1,6 @@
-def caesar_cipher(string, number)
+class CaesarCipher
+
+def self.caesar_cipher(string, number)
   text = String.new
   letters = string.split("")
   uppercase = ("A".."Z").to_a
@@ -28,7 +30,6 @@ def caesar_cipher(string, number)
     end
 
   end
- puts text
+ return text
  end
-
- caesar_cipher("What a string!", 5)
+end 

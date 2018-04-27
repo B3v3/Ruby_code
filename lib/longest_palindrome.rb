@@ -56,9 +56,11 @@ class LongestPalindrome
         palindrome_reset #set palindrom to base status
         @index += 1
       end
-puts @palindrome_longest
+return @palindrome_longest
 end
-end
+
+
+
 
 
 
