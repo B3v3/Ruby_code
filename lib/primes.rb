@@ -37,8 +37,8 @@ class ConsoleWriter
   def initialize
     puts "Write max of your range of numbers"
       range = gets.chomp.to_i
-    puts "Do you want to see number or list of primes?"
-      action = gets.chomp
+    puts "Do you want to see NUMBER or LIST of primes?"
+      action = gets.chomp.downcase
     select_method(action, range)
   end
 

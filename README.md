@@ -1,8 +1,8 @@
 # Ruby_code
 1. anagram_checker -
   Checking if words are anagrams and then storing anagrams in hash table
-2. bubble_sort - 
-  sorting using bubble sort 
+2. bubble_sort -
+  sorting using bubble sort
 3. caesar_cipher -
   encrypting string using Caesar's code
 4. longest_palidrome -
@@ -13,6 +13,9 @@
   takes in an array of stock prices, one for each hypothetical day, and return
   pair of days representing the best day to buy and the best day to sell
 7. substrings -
-  takes a word as the first argument and then an array of valid substrings 
-  (your dictionary) as the second argument and retunr the hash listing each substring 
+  takes a word as the first argument and then an array of valid substrings
+  (your dictionary) as the second argument and retunr the hash listing each substring
   found in the original string and number of times it was found
+8. snail_sort -
+  sort matrix like snail shell
+9. primes - for getting prime numbers
